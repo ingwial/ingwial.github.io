@@ -1,6 +1,5 @@
 import Logo from "./logo.png";
 import "./App.css";
-import InstagramIcon from "./instagram-logo.png";
 import GithubIcon from "./github-logo.png";
 import LinkedinIcon from "./linkedin-logo.png";
 
@@ -42,21 +41,6 @@ function App() {
                   rel="noopener noreferrer"
                 >
                   Github
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src={InstagramIcon} alt="InstagramIcon" height={24} />
-              </td>
-              <td>
-                <a
-                  className="App-link"
-                  href="https://www.instagram.com/ingwial"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Instagram
                 </a>
               </td>
             </tr>
